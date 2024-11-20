@@ -1,13 +1,156 @@
+@import './pages/Assets/Animate/animate.css';
 body {
-  margin: 0;
+  margin: 30px;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+    background: linear-gradient(to bottom, #71797c 0%, #ff99cc 100%);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#title{
+  text-align: center;
+  margin-top: 250px;
+  color: black;
+
+}
+.card1 {
+  height: 30%;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color:beige;
+}
+
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card1 {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+  padding: 5px 16px;
+  
+}
+.card2 {
+  height: 30%;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: beige;
+  
+ 
+}
+
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2 {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+   
+.card3 {
+  height: 30%;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: beige;
+}
+
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card3{
+ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#flex{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+
+.photos{
+   
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5%;
+  height:20%;
+  width: 20%;
+  margin-top: 30px;
+}
+
+
+   
+.photos{
+   
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5%;
+  height:20%;
+  width: 20%;
+  margin-top: 30px;
+}
+
+.project-title{
+  text-align: center;
+  
+  z-index: 3;
+}
+.About-Me{
+ color: black; 
+ text-align: center;
+}
+.List{
+align-items: center;
+margin-left: 40px;
+}
+.P{
+  color:black;
+  text-align: center; 
+}
+#question{
+  text-align: center;
+  font-size: 150px;
+}
+.button{
+  float: right;
+  box-shadow:10px 5px 10px ;
+}
+

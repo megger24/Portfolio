@@ -1,0 +1,17 @@
+#topnav{
+   margin-top: 25px;
+   font-size: 35px;
+
+}
+.link{
+text-decoration: none;
+
+margin-left: 5%;
+color: rgb(17, 11, 14);
+
+}
+.link:hover{
+   transform: scale(1.5);
+   color: aliceblue;
+}
+

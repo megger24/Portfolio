@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Whatever this nonsense is",
+      "body": "Todays article will demonstrate how to develop a login form in react js."
+    },
+    {
+      "id": "2",
+      "title": "Another title to fill space",
+      "body": "In this article, I will teach you how to parse or read CSV files in ReactJS in the simplest way possible. "
+    },
+    {
+      "id": "8312",
+      "title": "This is how the world ends",
+      "body": "dkffjhsdkfjhsdfkjsdhfgkjsdhfgksdjghsdkjfghdsg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "jessica",
+      "password": "test"
+    },
+    {
+      "username": "mary jane",
+      "password": "password",
+      "id": "2"
+    },
+    {
+      "id": "dbe3",
+      "username": "spider",
+      "password": "test"
+    }
+  ]
+}
